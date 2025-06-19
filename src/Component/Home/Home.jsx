@@ -5,6 +5,7 @@ import Product from "../Hero/Products/Product";
 import Treatment from "../Hero/Treatment/Treatment";
 import Client from "../Hero/Client/Client";
 import Team from "../Hero/Team/Team";
+import Get from "../Get/Get";
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
         <Client></Client>
       </div>
       <div>
-        <Team></Team>
+        <Get></Get>
       </div>
     </div>
   );

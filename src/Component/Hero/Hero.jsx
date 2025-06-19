@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="mt-14">
       <div
-        className=" bg-cover bg-center"
+        className=" bg-cover bg-center "
         style={{
           backgroundImage: "url(/src/assets/hero.png)",
         }}
