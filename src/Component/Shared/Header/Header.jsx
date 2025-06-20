@@ -44,6 +44,9 @@ const Header = () => {
                 <li>
                   <NavLink to="/shop">Shop</NavLink>
                 </li>
+                <li>
+                  <NavLink to="/">what are peptides</NavLink>
+                </li>
 
                 <li>
                   <NavLink to="/contact">Contact</NavLink>
@@ -57,7 +60,7 @@ const Header = () => {
             <img className="" src="/src/assets/logo.png" alt="" />
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 gap-7 text-[16px]">
+            <ul className="menu menu-horizontal px-1 gap-7 text-[16px] font-semibold">
               <li>
                 <NavLink to="/">Home</NavLink>
               </li>
@@ -68,12 +71,15 @@ const Header = () => {
               <li>
                 <NavLink to="/shop">Shop</NavLink>
               </li>
+              <li>
+                <NavLink to="/">what are peptides</NavLink>
+              </li>
 
               <li>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
               <li>
-                <NavLink to="/blog">Blog</NavLink>
+                <NavLink to="/">Blog</NavLink>
               </li>
             </ul>
           </div>

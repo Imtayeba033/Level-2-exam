@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 
 const SignIn = () => {
   return (
-    <div>
-      <div className="my-32 flex justify-center items-center ">
+    <div className="my-32">
+      <div className="flex justify-center items-center mt-32 ">
+        <h1 className="md:text-5xl text-2xl font-bold text-teal-500">SignIn</h1>
+      </div>
+      <div className=" flex justify-center items-center ">
         <div className="shadow-xl p-10 rounded-lg">
           <form action="">
             <div className="gap-5 font-semibold text-xl">

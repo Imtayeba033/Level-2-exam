@@ -3,7 +3,7 @@ import React from "react";
 const Treatment = () => {
   return (
     <div>
-      <div className="flex justify-center items-center text-center">
+      <div className="flex justify-center items-center text-center mt-10 mx-10">
         <div className="leading-6">
           <h1 className="md:text-7xl text-5xl font-semibold">
             Our <span className="text-accent">Specialized Treatments</span>
@@ -15,9 +15,9 @@ const Treatment = () => {
         </div>
       </div>
       {/* card */}
-      <div className="  my-10 md:px-30 py-10 grid md:grid-cols-3 md:py-20   md:mx-10 gap-5">
+      <div className="  mx-3 md:px-30 px-0 py-5 grid md:grid-cols-3 md:py-20   md:mx-10 gap-5">
         <div className="flex justify-start md:grid md:grid-cols-3 ">
-          <div className="card  bg-base-200 md:w-[320px] w-[500px] md:h-[330px] mt-6 shadow mx-4  ">
+          <div className="card  bg-base-200 md:w-[320px] w-[420px] md:h-[330px] mt-6 shadow mx-4  ">
             <div className="card-body">
               <img className="h-20 w-20" src="/src/assets/Frame.png" alt="" />
               <br></br>
@@ -35,7 +35,7 @@ const Treatment = () => {
           </div>
         </div>
         <div>
-          <div className="card  bg-base-200 md:w-[320px] w-[500px] md:h-[330px] mt-6 shadow mx-4">
+          <div className="card  bg-base-200 md:w-[320px] w-[420px] md:h-[330px] mt-6 shadow mx-4">
             <div className="card-body">
               <img
                 className="h-20 w-20"
@@ -57,7 +57,7 @@ const Treatment = () => {
           </div>
         </div>
         <div>
-          <div className="card  bg-base-200 md:w-[320px] w-[500px] md:h-[330px] mx-4  mt-6 shadow">
+          <div className="card  bg-base-200 md:w-[320px] w-[420px] md:h-[330px] mx-4  mt-6 shadow">
             <div className="card-body">
               <img
                 className="h-20 w-20"

@@ -3,9 +3,16 @@ import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
-    <div>
+    <div className="my-10">
       <div>
-        <div className="my-16 flex justify-center items-center ">
+        <div>
+          <div className="flex justify-center items-center mt-20 mx-32 ">
+            <h1 className="md:text-5xl text-2xl font-bold text-teal-500">
+              SignUp
+            </h1>
+          </div>
+        </div>
+        <div className=" flex justify-center items-center ">
           <div className="shadow-xl p-10 rounded-lg">
             <form action="">
               <div className="gap-5 font-semibold text-xl">

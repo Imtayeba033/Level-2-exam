@@ -25,7 +25,7 @@ const Team = () => {
   return (
     <div>
       <div className="md:flex justify-center items-center grid-cols-1">
-        <div className="md:w-[600px] w-[350px] md:h-[600px] mt-10 p-6 bg-white rounded-lg shadow-lg m-20">
+        <div className="md:w-[600px] w-[350px] md:h-[600px] mt-10 p-6 bg-white rounded-lg shadow-lg mx-10">
           <h2 className="md:text-2xl text-xl font-semibold mb-6 text-gray-800">
             Send Message
           </h2>
@@ -95,7 +95,7 @@ const Team = () => {
             </div>
           </form>
         </div>
-        <div className="  md:w-[600px] w-[350px] md:h-[600px] mt-10 p-6 bg-white rounded-lg shadow-lg m-20">
+        <div className="  md:w-[600px] w-[350px] md:h-[600px] mt-10 p-6 bg-white rounded-lg shadow-lg mx-10">
           <div>
             <h2 className="md:text-2xl text-xl font-semibold mb-6 text-gray-800">
               Contact Information

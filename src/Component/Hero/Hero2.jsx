@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero2 = () => {
   return (
-    <div className="px-5 md:px-20 md:py-32 mt-4 ">
+    <div className="px-5 md:px-12 md:py-32 mt-4 mx-10">
       <div className="md:flex justify-center gap-14 items-center">
         <div className="rounded-3xl">
           <img src="/src/assets/image 1.png" alt="" />
