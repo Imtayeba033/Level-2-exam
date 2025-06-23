@@ -19,7 +19,10 @@ const SignUp = () => {
       // createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {
         const registerUser = result.user;
+        console.log(registerUser);
+        
         setUser(registerUser);
+
       })
       .catch((error) => {
         console.log(error);
